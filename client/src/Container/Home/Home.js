@@ -1,24 +1,30 @@
 import React from "react";
 import "./Home.css";
 import Header from "../../Components/Header";
-import Footer from "../../Components/Footer"
+import Footer from "../../Components/Footer";
 
 
 class Home extends React.Component {
     
     render(){
-        return(<section>
+        return(<div>
             <Header></Header>
-            <div></div>
+
+    <div>
+        
+        
+        
+        
+        </div>        
+          
+
 
 <Footer></Footer>
-        </section>
         
 
-        )
+        </div>)
     }
 
   
 };
 export default Home
-   
