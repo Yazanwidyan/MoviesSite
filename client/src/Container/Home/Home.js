@@ -13,13 +13,12 @@ class Home extends React.Component {
     <div>
         
         
-        
-        
         </div>        
           
 
 
-<Footer></Footer>
+<Footer>
+</Footer>
         
 
         </div>)
