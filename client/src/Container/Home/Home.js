@@ -3,27 +3,20 @@ import "./Home.css";
 import Header from "../../Components/Header";
 import Footer from "../../Components/Footer";
 
-
 class Home extends React.Component {
-    
-    render(){
-        return(<div>
-            <Header></Header>
-
-    <div>
+  render() {
+    return (
+      <div>
+        <Header></Header>
         
         
-        </div>        
-          
 
 
-<Footer>
-</Footer>
         
 
-        </div>)
-    }
-
-  
-};
-export default Home
+        <Footer></Footer>
+      </div>
+    );
+  }
+}
+export default Home;
