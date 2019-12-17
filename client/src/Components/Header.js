@@ -4,19 +4,26 @@ import "./Header.css";
 class Header extends React.Component {
   render() {
     return (
-      <div>
-        <div className="mainHead">
-        <button >Log in</button>
+      <div class="main-div">
+        <nav>
+            <a class="active">Home</a>
+            <a>news</a>
+            <a>Blog</a>
+            <a>Gallery</a>
+            <a>About</a>
+            <a>Contact</a>
+            <div class="container">
+                <form>
+                <input type="text" placeholder="Username"/>
+                <input type="password" placeholder="Password"/> 
+                <button type="submit">Login</button>
+                </form>
+            </div>
 
-
-        </div>
-        
-        <div className="nav">
+         </nav>
+         <div className="nav2">
             <ul>
-              <li><a> blog </a></li>
-              <li><a> news </a></li>
-              <li><a> Gallery </a></li>
-              <li><a> Media </a></li>
+              <li><a> Top 3 movies this weekend </a></li>
             </ul>
         </div>
 
