@@ -1,52 +1,31 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
+.mainHead{
+  background-color: rgb(44, 44, 42);
+  width: 100%;
+  padding: 15px;
+
 }
-body {
-  height: 900px;
+.mainHead button{
+  margin-left: 20px
 }
-header {
-  background: url(https://cdn.hipwallpaper.com/m/80/29/ynuKj1.jpeg);
-  text-align: center;
+.nav{
   width: 100%;
   height: auto;
-  background-size: cover;
-  background-attachment: fixed;
-  position: relative;
-  overflow: hidden;
-  border-radius: 0 0 85% 85% / 30%;
+  margin: auto;
+  margin-top: 15px;
 }
-header .overlay {
-  width: 100%;
-  height: 100%;
-  padding: 50px;
-  color: #fff;
-  text-shadow: 1px 1px 1px #333;
+.nav ul {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
 }
-
-h1 {
-  font-family: "Dancing Script", cursive;
-  font-size: 80px;
-  margin-bottom: 30px;
+.nav ul li {
+  display: inline-block;
+  margin: 0px 40px;
 }
-
-h3,
-p {
-  font-family: "Open Sans", sans-serif;
-  margin-bottom: 30px;
-}
-
-button {
-  border: none;
-  outline: none;
-  padding: 10px 20px;
-  border-radius: 50px;
-  color: #333;
-  background: #fff;
-  margin-bottom: 50px;
-  box-shadow: 0 3px 20px 0 #0000003b;
-}
-button:hover {
-  cursor: pointer;
+.nav ul li a {
+  font-family: Arial;
+  font-size: 25px;
+  font-weight: 600;
+  color: rgba(255, 254, 254, 0.993);
+  text-transform: uppercase;
 }

@@ -1,4 +1,62 @@
-.body{
-    margin: auto;
-    width: 100%;
+.main-body-div{
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(https://images.wallpaperscraft.com/image/montreal_canada_night_city_118783_2560x1080.jpg);
+    background-size: cover;
+    
 }
+.pix{
+    display: inline-block;
+    width: auto;
+    height: auto;
+    margin-top: 50px;
+
+}
+.picShawshank{
+    margin-left: 185px;
+    width: 250px;
+    height: 400px;
+
+}
+.picIntersteller{
+    margin-left: 200px;
+    width: 250px;
+    height: 400px;
+
+}
+.picGodfather{
+    margin-left: 200px;
+    width: 250px;
+    height: 400px;
+}
+.movies{
+  width: 100%;
+  height: auto;
+  margin: auto;
+  margin-top: 15px;
+}
+.movies ul {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;}
+
+.movies ul li {
+        display: inline-block;
+        margin: 0px 155px;
+}
+.movies ul li a {
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 254, 254);
+    text-transform: uppercase;
+}
+.para1{
+    margin-top: 0px;
+    padding: 140px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    
+}
+

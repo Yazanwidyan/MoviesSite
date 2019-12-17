@@ -8,12 +8,11 @@ a {
   outline: none;
 }
 .footer-main-div {
+  margin-top: auto;
   bottom: 0px;
-  position: fixed;
   width: 100%;
   height: auto;
-  margin: auto;
-  background: #272727;
+  background: #ffffff;
   padding: 20px 0px;
 }
 .footer-social-icons {
@@ -32,7 +31,7 @@ a {
   height: 50px;
   margin: 0px 10px;
   border-radius: 100%;
-  background: #32cd32;
+  background: #56b4a8;
 }
 .footer-social-icons ul li a {
   color: #272727;
@@ -61,7 +60,7 @@ a {
   font-family: Arial;
   font-size: 20px;
   font-weight: 600;
-  color: #fff;
+  color: rgba(33, 43, 40, 0.644);
   text-transform: uppercase;
 }
 .footer-menu-two {
@@ -83,6 +82,6 @@ a {
   font-family: Arial;
   font-size: 15px;
   font-weight: 600;
-  color: #fff;
+  color: rgba(33, 43, 40, 0.644);
   text-transform: uppercase;
 }

@@ -4,20 +4,24 @@ import "./Header.css";
 class Header extends React.Component {
   render() {
     return (
-      <header>
-        <div class="overlay">
-          <h1>Simply The Best</h1>
-          <h3>Reasons for Choosing US</h3>
-          <p>
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
-            nostrum quis, odio veniam itaque ullam debitis qui magnam
-            consequatur ab. Vero nostrum quis, odio veniam itaque ullam debitis
-            qui magnam consequatur ab.
-          </p>
+      <div>
+        <div className="mainHead">
+        <button >Log in</button>
 
-          <button>READ MORE</button>
+
         </div>
-      </header>
+        
+        <div className="nav">
+            <ul>
+              <li><a> blog </a></li>
+              <li><a> news </a></li>
+              <li><a> Gallery </a></li>
+              <li><a> Media </a></li>
+            </ul>
+        </div>
+
+      </div>
+      
     );
   }
 }
