@@ -16,14 +16,8 @@ class Footer extends React.Component {
             models using traditional animation techniques; by means of CGI
             </p>
             <div className="contact">
-              <span><i class="fas fa-phone"></i> &nbsp; 08-88-555-44 </span>
-              <span><i class="fas fa-envelope"></i> &nbsp; info@yazanwidyan.com </span>
-            </div>
-            <div className="socials">
-              <a><i className="fab fa-facebook"></i></a>
-              <a><i className="fab fa-instagram"></i></a>
-              <a><i className="fab fa-twitter"></i></a>
-              <a><i className="fab fa-youtube"></i></a>
+              <span> &nbsp; 08-88-555-44 </span>
+              <span> &nbsp; info@yazanwidyan.com </span>
             </div>
           </div>
 
@@ -53,7 +47,7 @@ class Footer extends React.Component {
         </div>
 
         <div className="footer-bottom">
-          &copy; Yazan Widyan
+          &copy;Designed by | Yazan Widyan
         </div>
 
       </div>
